@@ -12,7 +12,7 @@
   <header class="site-header">
     <div class="container header-row">
       <div class="brand">
-        <span class="logo" aria-hidden="true"></span>
+        <span class="monogram" aria-hidden="true">HP</span>
         <div class="brand-text">
           <div class="brand-name">Healing, Psychotherapy</div>
           <div class="brand-sub">Telehealth services • In-person sessions available</div>
@@ -31,7 +31,6 @@
     <section id="welcome" class="hero">
       <div class="container hero-grid">
         <article class="hero-copy">
-          <p class="badge">Licensed Psychotherapist in Washington</p>
           <h1>Welcome.</h1>
 
           <p class="lead">
@@ -41,20 +40,30 @@
           </p>
 
           <div class="quick">
-            <a class="quick-card" href="mailto:tabraha@live.com">
+            <a class="quick-card hover-pop" href="mailto:tabraha@live.com">
               <span class="kicker">Email</span>
               <span class="value">tabraha@live.com</span>
             </a>
 
-            <a class="quick-card" href="tel:12064078226">
+            <a class="quick-card hover-pop" href="tel:12064078226">
               <span class="kicker">Phone</span>
               <span class="value">(206-407-8226)</span>
             </a>
           </div>
         </article>
 
-        <aside class="hero-side" aria-label="Session options and location">
-          <div class="panel">
+        <aside class="hero-side" aria-label="Headshot and location">
+          <!-- Headshot spot (no image needed yet) -->
+          <figure class="headshot hover-pop" aria-label="Professional headshot">
+            <!-- When you're ready, upload assets/headshot.webp and it will show -->
+            <img src="assets/headshot.webp" alt="Professional headshot of Tesfaye Gebreyohannes" onerror="this.style.display='none'; this.parentElement.classList.add('headshot-fallback');" />
+            <figcaption class="headshot-caption">
+              <span class="headshot-title">Professional headshot</span>
+              <span class="headshot-sub">Add later</span>
+            </figcaption>
+          </figure>
+
+          <div class="panel hover-pop">
             <h2>Session options</h2>
             <p><strong>Offering telehealth services</strong></p>
             <p><strong>In-person sessions available</strong></p>
@@ -114,13 +123,13 @@
         </header>
 
         <ul class="chips" aria-label="Services list">
-          <li>Individual psychotherapy for adults</li>
-          <li>Anxiety and stress management</li>
-          <li>Depression and mood concerns</li>
-          <li>Trauma and PTSD</li>
-          <li>Life transitions and identity exploration</li>
-          <li>Relationship and interpersonal issues</li>
-          <li>Self-esteem and personal growth</li>
+          <li class="chip hover-pop">Individual psychotherapy for adults</li>
+          <li class="chip hover-pop">Anxiety and stress management</li>
+          <li class="chip hover-pop">Depression and mood concerns</li>
+          <li class="chip hover-pop">Trauma and PTSD</li>
+          <li class="chip hover-pop">Life transitions and identity exploration</li>
+          <li class="chip hover-pop">Relationship and interpersonal issues</li>
+          <li class="chip hover-pop">Self-esteem and personal growth</li>
         </ul>
       </div>
     </section>
@@ -132,28 +141,24 @@
           <p class="muted">Email or call to get in touch.</p>
 
           <div class="contact-cards">
-            <a class="contact-card" href="mailto:tabraha@live.com">
+            <a class="contact-card hover-pop" href="mailto:tabraha@live.com">
               <span class="kicker">Email</span>
               <span class="value">tabraha@live.com</span>
             </a>
 
-            <a class="contact-card" href="tel:12064078226">
+            <a class="contact-card hover-pop" href="tel:12064078226">
               <span class="kicker">Phone</span>
               <span class="value">(206-407-8226)</span>
             </a>
           </div>
         </article>
 
-        <aside class="panel">
+        <aside class="panel hover-pop">
           <h3>Location</h3>
           <p class="muted">
             1160 N 192nd street<br />
             Shoreline, WA,98133
           </p>
-
-          <hr />
-
-          <p class="muted">Licensed Psychotherapist in Washington.</p>
         </aside>
       </div>
     </section>
