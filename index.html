@@ -4,34 +4,33 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Healing, Psychotherapy</title>
-  <meta name="description" content="Healing, Psychotherapy — Individual psychotherapy for adults. Telehealth and in-person sessions available in Shoreline, WA." />
+  <meta name="description" content="Healing, Psychotherapy — Individual psychotherapy for adults. Telehealth services and in-person sessions available in Shoreline, WA." />
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-  <header class="topbar">
-    <div class="wrap topbar-inner">
+  <header class="site-header">
+    <div class="container header-row">
       <div class="brand">
-        <div class="mark" aria-hidden="true"></div>
-        <div>
+        <span class="logo" aria-hidden="true"></span>
+        <div class="brand-text">
           <div class="brand-name">Healing, Psychotherapy</div>
           <div class="brand-sub">Telehealth services • In-person sessions available</div>
         </div>
       </div>
 
-      <nav class="nav" aria-label="Primary">
+      <nav class="nav" aria-label="Primary navigation">
         <a href="#welcome">Welcome</a>
         <a href="#services">Services</a>
-        <a href="#contact" class="btn">Contact</a>
+        <a href="#contact" class="cta">Contact</a>
       </nav>
     </div>
   </header>
 
   <main>
-    <!-- HERO -->
-    <section class="hero" id="welcome">
-      <div class="wrap hero-inner">
-        <div class="hero-copy">
+    <section id="welcome" class="hero">
+      <div class="container hero-grid">
+        <article class="hero-copy">
           <p class="badge">Licensed Psychotherapist in Washington</p>
           <h1>Welcome.</h1>
 
@@ -42,42 +41,42 @@
           </p>
 
           <div class="quick">
-            <div class="quick-card">
-              <div class="kicker">Email</div>
-              <a href="mailto:tabraha@live.com" class="value">tabraha@live.com</a>
-            </div>
-            <div class="quick-card">
-              <div class="kicker">Phone</div>
-              <a href="tel:12064078226" class="value">(206) 407-8226</a>
-            </div>
+            <a class="quick-card" href="mailto:tabraha@live.com">
+              <span class="kicker">Email</span>
+              <span class="value">tabraha@live.com</span>
+            </a>
+
+            <a class="quick-card" href="tel:12064078226">
+              <span class="kicker">Phone</span>
+              <span class="value">(206-407-8226)</span>
+            </a>
           </div>
-        </div>
+        </article>
 
-        <div class="hero-panel" aria-label="Session options and location">
-          <h2 class="panel-title">Session options</h2>
-          <p class="panel-line"><strong>Offering telehealth services</strong></p>
-          <p class="panel-line"><strong>In-person sessions available</strong></p>
+        <aside class="hero-side" aria-label="Session options and location">
+          <div class="panel">
+            <h2>Session options</h2>
+            <p><strong>Offering telehealth services</strong></p>
+            <p><strong>In-person sessions available</strong></p>
 
-          <div class="divider"></div>
+            <hr />
 
-          <p class="panel-line">
-            <strong>Location</strong><br />
-            1160 N 192nd street, Shoreline, WA,98133
-          </p>
+            <p class="muted">
+              <strong>Location</strong><br />
+              1160 N 192nd street, Shoreline, WA,98133
+            </p>
 
-          <div class="divider"></div>
+            <hr />
 
-          <p class="panel-line small">
-            <strong>Disclaimer:</strong> This website is for educational purposes only.
-          </p>
-        </div>
+            <p class="muted small"><strong>Disclaimer:</strong> This website is for educational purposes only.</p>
+          </div>
+        </aside>
       </div>
     </section>
 
-    <!-- ABOUT (FLUID, NO BIG BREAKS) -->
     <section class="section">
-      <div class="wrap">
-        <div class="text">
+      <div class="container">
+        <article class="reading">
           <p>
             My approach combines compassionate support with evidence-based strategies to help you navigate life’s challenges
             with clarity, resilience, and empowerment.
@@ -103,77 +102,68 @@
             You deserve support that is attentive, respectful, and grounded in real-world clinical expertise.
             If you’re ready to take that step, I’m here to partner with you.
           </p>
-        </div>
+        </article>
       </div>
     </section>
 
-    <!-- SERVICES -->
-    <section class="section soft" id="services">
-      <div class="wrap">
-        <div class="section-head">
+    <section id="services" class="section soft">
+      <div class="container">
+        <header class="section-head">
           <h2>Services & Specialties</h2>
-          <p>Individual psychotherapy for adults</p>
-        </div>
+          <p class="muted">Individual psychotherapy for adults</p>
+        </header>
 
-        <div class="chips" aria-label="Services list">
-          <div class="chip">Individual psychotherapy for adults</div>
-          <div class="chip">Anxiety and stress management</div>
-          <div class="chip">Depression and mood concerns</div>
-          <div class="chip">Trauma and PTSD</div>
-          <div class="chip">Life transitions and identity exploration</div>
-          <div class="chip">Relationship and interpersonal issues</div>
-          <div class="chip">Self-esteem and personal growth</div>
-        </div>
+        <ul class="chips" aria-label="Services list">
+          <li>Individual psychotherapy for adults</li>
+          <li>Anxiety and stress management</li>
+          <li>Depression and mood concerns</li>
+          <li>Trauma and PTSD</li>
+          <li>Life transitions and identity exploration</li>
+          <li>Relationship and interpersonal issues</li>
+          <li>Self-esteem and personal growth</li>
+        </ul>
       </div>
     </section>
 
-    <!-- CONTACT -->
-    <section class="section" id="contact">
-      <div class="wrap contact">
-        <div class="contact-left">
+    <section id="contact" class="section">
+      <div class="container contact-grid">
+        <article>
           <h2>Contact</h2>
-          <p class="muted">
-            Email or call to get in touch.
-          </p>
+          <p class="muted">Email or call to get in touch.</p>
 
           <div class="contact-cards">
             <a class="contact-card" href="mailto:tabraha@live.com">
-              <div class="kicker">Email</div>
-              <div class="value">tabraha@live.com</div>
+              <span class="kicker">Email</span>
+              <span class="value">tabraha@live.com</span>
             </a>
 
             <a class="contact-card" href="tel:12064078226">
-              <div class="kicker">Phone</div>
-              <div class="value">(206) 407-8226</div>
+              <span class="kicker">Phone</span>
+              <span class="value">(206-407-8226)</span>
             </a>
           </div>
-        </div>
+        </article>
 
-        <div class="contact-right">
-          <div class="panel">
-            <h3>Location</h3>
-            <p class="muted">
-              1160 N 192nd street<br />
-              Shoreline, WA,98133
-            </p>
+        <aside class="panel">
+          <h3>Location</h3>
+          <p class="muted">
+            1160 N 192nd street<br />
+            Shoreline, WA,98133
+          </p>
 
-            <div class="divider"></div>
+          <hr />
 
-            <p class="muted">
-              Licensed Psychotherapist in Washington.
-            </p>
-          </div>
-        </div>
+          <p class="muted">Licensed Psychotherapist in Washington.</p>
+        </aside>
       </div>
     </section>
   </main>
 
-  <footer class="footer">
-    <div class="wrap footer-inner">
-      <div class="muted">Healing, Psychotherapy</div>
-      <div class="muted">This website is for educational purposes only.</div>
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <span class="muted">Healing, Psychotherapy</span>
+      <span class="muted">This website is for educational purposes only.</span>
     </div>
   </footer>
 </body>
 </html>
-
